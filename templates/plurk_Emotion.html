@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Plurk Emotion Design</title>
+<script language="javascript" src="http://code.jquery.com/jquery-1.6.2.min.js"></script>
+<script language="javascript" src="http://plugins.jquery.com/files/jquery.animate-colors-min.js_.txt"></script>
+<script language="javascript" src="http://jquery-ui.googlecode.com/svn/trunk/ui/jquery.effects.core.js"></script>
+<script language="javascript" src="http://jquery-ui.googlecode.com/svn/trunk/ui/jquery.ui.position.js"></script>
+<script language="javascript" src="{{  url_for('static', filename='fancybox/jquery.easing-1.3.pack.js') }}"></script>
+<script language="javascript" src="{{  url_for('static', filename='fancybox/jquery.fancybox-1.3.4.js') }}"></script>
+<script language="javascript" src="{{  url_for('static', filename='script.js') }}"></script>
+<link href='http://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' type='text/css'>
+<link href='{{  url_for('static', filename='fancybox/jquery.fancybox-1.3.4.css') }}' rel='stylesheet' type='text/css'>
+<link href='{{  url_for('static', filename='stylesheets/style.css') }}' rel='stylesheet' type='text/css'>
+<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+<!--[if lt IE 7]>
+<link href="stylesheets/ie6.css" media="screen, projection" rel="stylesheet" type="text/css" />
+<![endif]-->
+
+</head>
+
+<body>
+
+<div align="center" >
+<div class="main">
+<h1 class="title">Plurk Emotion Design</h1>
+<h4 class="subtitle">線上製作適合噗浪格式的表情圖片! </h4>
+
+<div class="content">
+
+{% if images %}
+	<div align="center" id="image_box">
+	<table border="0" cellpadding="0" cellspacing="0">
+	{% for row in images %}
+		<tr>
+		{% for img in row %}
+			<td><a href="{{ url_for('image', filename=img) }}"><img src="{{ url_for('image', filename=img) }}" border="0" /></a></td>
+		{% endfor %}
+		</tr>
+	{% endfor %}
+	</table>
+	<br />
+	<input type="checkbox" id="display_split" />分割  &nbsp;&nbsp;&nbsp; <input type="checkbox" id="display_noalpha" />完整顯示
+	</div>
+{% endif %}
+
+
+<form id="upload_form" action="{{url_for('uploadfile')}}" method="post" enctype="multipart/form-data">
+	<div id="upload_image_btn" >立即上傳圖片
+	<input id="image_file" type="file" accept="image/*" style="opacity:0" name="image_file" />
+	</div>
+	<input type="hidden" id="hpart" name="hpart"  />
+	<input type="hidden" id="wpart" name="wpart" />
+	
+</form>
+
+<div id="setting" style="display:none; ">
+<div style="width:300px; height: 180px;" align="center">
+<h2>分割設定</h2>
+<p>垂直分割: <select id="setting_hpart" ><option>1</option><option>2</option><option>3</option></select></p>
+<p>水平分割: <select id="setting_wpart" ><option>1</option><option>2</option><option>3</option></select></p>
+<button id="setting_btn">送出</button>
+</div>
+</div>
+
+
+</div>
+<div>
+</div>
+</body>
+</html>

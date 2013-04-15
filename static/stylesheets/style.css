@@ -1,0 +1,236 @@
+/* incase an inverted custom gradient isn't specified */
+/* line 177, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+.fancy-button-reset-base-class, #upload_image_btn, #setting_btn {
+  font-family: "Lucida Grande", Lucida, Arial, sans-serif;
+  background: url('/images/button_bg.png?1315635550') repeat-x bottom left;
+  margin: 0;
+  width: auto;
+  overflow: visible;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  border-style: solid;
+  font-weight: bold;
+}
+/* line 165, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+.fancy-button-reset-base-class::-moz-focus-inner, #upload_image_btn::-moz-focus-inner, #setting_btn::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+/* line 168, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+.fancy-button-reset-base-class:focus, #upload_image_btn:focus, #setting_btn:focus {
+  outline: none;
+}
+
+/* line 6, ../sass/style.scss */
+.title {
+  font-family: 'Merienda One', cursive;
+  letter-spacing: 3px;
+  font-weight: normal;
+  text-align: left;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+/* line 14, ../sass/style.scss */
+.subtitle {
+  letter-spacing: 1px;
+  text-align: left;
+  margin: 1px;
+}
+
+/* line 19, ../sass/style.scss */
+.main {
+  width: 800px;
+  text-align: center;
+}
+
+/* line 24, ../sass/style.scss */
+.content {
+  padding-top: 50px;
+}
+
+/* line 30, ../sass/style.scss */
+#upload_image_btn {
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  font-size: 30px;
+  line-height: 1.2em;
+  padding: 0.3em 1em;
+  border-width: 1px;
+  background-color: #3399ff;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dbedff), color-stop(10%, #80bfff), color-stop(50%, #2491ff), color-stop(50%, #148aff), color-stop(100%, #47a3ff));
+  background-image: -webkit-linear-gradient(#dbedff, #80bfff 10%, #2491ff 50%, #148aff 50%, #47a3ff);
+  background-image: -moz-linear-gradient(#dbedff, #80bfff 10%, #2491ff 50%, #148aff 50%, #47a3ff);
+  background-image: -o-linear-gradient(#dbedff, #80bfff 10%, #2491ff 50%, #148aff 50%, #47a3ff);
+  background-image: -ms-linear-gradient(#dbedff, #80bfff 10%, #2491ff 50%, #148aff 50%, #47a3ff);
+  background-image: linear-gradient(#dbedff, #80bfff 10%, #2491ff 50%, #148aff 50%, #47a3ff);
+  border-color: #0073e6;
+  text-shadow: #0059b3 0px 1px 1px;
+  -moz-box-shadow: rgba(255, 255, 255, 0.6) 0 0 0.1em 1px inset;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.6) 0 0 0.1em 1px inset;
+  -o-box-shadow: rgba(255, 255, 255, 0.6) 0 0 0.1em 1px inset;
+  box-shadow: rgba(255, 255, 255, 0.6) 0 0 0.1em 1px inset;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding;
+  -o-background-clip: padding-box;
+  -ms-background-clip: padding-box;
+  -khtml-background-clip: padding-box;
+  background-clip: padding-box;
+  -moz-box-shadow: 0px 0px 3px black;
+  -webkit-box-shadow: 0px 0px 3px black;
+  -o-box-shadow: 0px 0px 3px black;
+  box-shadow: 0px 0px 3px black;
+  padding-left: 3em;
+  padding-right: 3em;
+  overflow: hidden;
+  position: relative;
+}
+/* line 116, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+#upload_image_btn, #upload_image_btn:visited {
+  color: white;
+}
+/* line 31, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+#upload_image_btn:hover, #upload_image_btn:focus {
+  background-color: #2491ff;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cce5ff), color-stop(10%, #70b8ff), color-stop(50%, #148aff), color-stop(50%, #0582ff), color-stop(100%, #389cff));
+  background-image: -webkit-linear-gradient(#cce5ff, #70b8ff 10%, #148aff 50%, #0582ff 50%, #389cff);
+  background-image: -moz-linear-gradient(#cce5ff, #70b8ff 10%, #148aff 50%, #0582ff 50%, #389cff);
+  background-image: -o-linear-gradient(#cce5ff, #70b8ff 10%, #148aff 50%, #0582ff 50%, #389cff);
+  background-image: -ms-linear-gradient(#cce5ff, #70b8ff 10%, #148aff 50%, #0582ff 50%, #389cff);
+  background-image: linear-gradient(#cce5ff, #70b8ff 10%, #148aff 50%, #0582ff 50%, #389cff);
+  border-color: #006bd6;
+  text-shadow: #0052a3 0px 1px 1px;
+}
+/* line 116, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+#upload_image_btn:hover, #upload_image_btn:hover:visited, #upload_image_btn:focus, #upload_image_btn:focus:visited {
+  color: white;
+}
+/* line 36, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+#upload_image_btn:active {
+  background-color: #148aff;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #148aff), color-stop(30%, #1f8fff), color-stop(50%, #0a85ff), color-stop(50%, #007dfa), color-stop(100%, #3d9eff));
+  background-image: -webkit-linear-gradient(#148aff, #1f8fff 30%, #0a85ff 50%, #007dfa 50%, #3d9eff);
+  background-image: -moz-linear-gradient(#148aff, #1f8fff 30%, #0a85ff 50%, #007dfa 50%, #3d9eff);
+  background-image: -o-linear-gradient(#148aff, #1f8fff 30%, #0a85ff 50%, #007dfa 50%, #3d9eff);
+  background-image: -ms-linear-gradient(#148aff, #1f8fff 30%, #0a85ff 50%, #007dfa 50%, #3d9eff);
+  background-image: linear-gradient(#148aff, #1f8fff 30%, #0a85ff 50%, #007dfa 50%, #3d9eff);
+  border-color: #0063c7;
+  text-shadow: #004a94 0px -1px -1px;
+  -moz-box-shadow: #0073e6 0 0.08em 0.2em 1px inset;
+  -webkit-box-shadow: #0073e6 0 0.08em 0.2em 1px inset;
+  -o-box-shadow: #0073e6 0 0.08em 0.2em 1px inset;
+  box-shadow: #0073e6 0 0.08em 0.2em 1px inset;
+}
+/* line 116, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+#upload_image_btn:active, #upload_image_btn:active:visited {
+  color: white;
+}
+
+/* line 40, ../sass/style.scss */
+#upload_image_btn #image_file {
+  opacity: 0;
+  position: absolute;
+  width: 300%;
+  height: 300%;
+  z-index: 1;
+  top: 0px;
+  left: 0px;
+}
+
+/* line 51, ../sass/style.scss */
+#setting_btn {
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  font-size: 13px;
+  line-height: 1.2em;
+  padding: 0.3em 1em;
+  border-width: 1px;
+  background-color: #666666;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #bababa), color-stop(10%, #8c8c8c), color-stop(50%, #5e5e5e), color-stop(50%, #575757), color-stop(100%, #707070));
+  background-image: -webkit-linear-gradient(#bababa, #8c8c8c 10%, #5e5e5e 50%, #575757 50%, #707070);
+  background-image: -moz-linear-gradient(#bababa, #8c8c8c 10%, #5e5e5e 50%, #575757 50%, #707070);
+  background-image: -o-linear-gradient(#bababa, #8c8c8c 10%, #5e5e5e 50%, #575757 50%, #707070);
+  background-image: -ms-linear-gradient(#bababa, #8c8c8c 10%, #5e5e5e 50%, #575757 50%, #707070);
+  background-image: linear-gradient(#bababa, #8c8c8c 10%, #5e5e5e 50%, #575757 50%, #707070);
+  border-color: #404040;
+  text-shadow: #262626 0px 1px 1px;
+  -moz-box-shadow: rgba(255, 255, 255, 0.4) 0 0 0.1em 1px inset;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.4) 0 0 0.1em 1px inset;
+  -o-box-shadow: rgba(255, 255, 255, 0.4) 0 0 0.1em 1px inset;
+  box-shadow: rgba(255, 255, 255, 0.4) 0 0 0.1em 1px inset;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding;
+  -o-background-clip: padding-box;
+  -ms-background-clip: padding-box;
+  -khtml-background-clip: padding-box;
+  background-clip: padding-box;
+  -moz-box-shadow: 0px 0px 3px black;
+  -webkit-box-shadow: 0px 0px 3px black;
+  -o-box-shadow: 0px 0px 3px black;
+  box-shadow: 0px 0px 3px black;
+  position: relative;
+}
+/* line 116, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+#setting_btn, #setting_btn:visited {
+  color: white;
+}
+/* line 31, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+#setting_btn:hover, #setting_btn:focus {
+  background-color: #5e5e5e;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #b3b3b3), color-stop(10%, #858585), color-stop(50%, #575757), color-stop(50%, #4f4f4f), color-stop(100%, #696969));
+  background-image: -webkit-linear-gradient(#b3b3b3, #858585 10%, #575757 50%, #4f4f4f 50%, #696969);
+  background-image: -moz-linear-gradient(#b3b3b3, #858585 10%, #575757 50%, #4f4f4f 50%, #696969);
+  background-image: -o-linear-gradient(#b3b3b3, #858585 10%, #575757 50%, #4f4f4f 50%, #696969);
+  background-image: -ms-linear-gradient(#b3b3b3, #858585 10%, #575757 50%, #4f4f4f 50%, #696969);
+  background-image: linear-gradient(#b3b3b3, #858585 10%, #575757 50%, #4f4f4f 50%, #696969);
+  border-color: #383838;
+  text-shadow: #1f1f1f 0px 1px 1px;
+}
+/* line 116, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+#setting_btn:hover, #setting_btn:hover:visited, #setting_btn:focus, #setting_btn:focus:visited {
+  color: white;
+}
+/* line 36, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+#setting_btn:active {
+  background-color: #575757;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #575757), color-stop(30%, #5c5c5c), color-stop(50%, #525252), color-stop(50%, #4a4a4a), color-stop(100%, #6b6b6b));
+  background-image: -webkit-linear-gradient(#575757, #5c5c5c 30%, #525252 50%, #4a4a4a 50%, #6b6b6b);
+  background-image: -moz-linear-gradient(#575757, #5c5c5c 30%, #525252 50%, #4a4a4a 50%, #6b6b6b);
+  background-image: -o-linear-gradient(#575757, #5c5c5c 30%, #525252 50%, #4a4a4a 50%, #6b6b6b);
+  background-image: -ms-linear-gradient(#575757, #5c5c5c 30%, #525252 50%, #4a4a4a 50%, #6b6b6b);
+  background-image: linear-gradient(#575757, #5c5c5c 30%, #525252 50%, #4a4a4a 50%, #6b6b6b);
+  border-color: #303030;
+  text-shadow: #171717 0px -1px -1px;
+  -moz-box-shadow: #404040 0 0.08em 0.2em 1px inset;
+  -webkit-box-shadow: #404040 0 0.08em 0.2em 1px inset;
+  -o-box-shadow: #404040 0 0.08em 0.2em 1px inset;
+  box-shadow: #404040 0 0.08em 0.2em 1px inset;
+}
+/* line 116, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
+#setting_btn:active, #setting_btn:active:visited {
+  color: white;
+}
+
+/* line 56, ../sass/style.scss */
+.setting {
+  letter-spacing: 2px;
+}
+
+/* line 60, ../sass/style.scss */
+#image_box {
+  padding-bottom: 30px;
+}
+
+/* line 63, ../sass/style.scss */
+#image_box table td {
+  background: #333;
+}
